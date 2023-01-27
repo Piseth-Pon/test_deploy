@@ -24,6 +24,8 @@ body {
   color: brown;
   font-size: 64px;
   font-weight: 900;
+
+  animation: spread 2s infinite;
 }
 
 .container h2 {
@@ -45,4 +47,15 @@ body {
 
 .container a:hover {
   background-color: darkblue;
+}
+
+@keyframes spread {
+  0% {
+    letter-spacing: 2px;
+    color: whitesmoke;
+  }
+  100% {
+    letter-spacing: 8px;
+    color: brown;
+  }
 }
