@@ -25,3 +25,9 @@ body {
   font-size: 64px;
   font-weight: 900;
 }
+
+.container h2 {
+  color: darkblue;
+  font-size: 48px;
+  font-weight: 800;
+}
