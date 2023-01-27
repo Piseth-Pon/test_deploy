@@ -1,5 +1,7 @@
 function main() {
-  alert('welcome to coding space!!')
+  const h1 = document.querySelector('.container h1')
+  console.log(h1)
+  h1.style.textTransform = 'uppercase'
 }
 
 
